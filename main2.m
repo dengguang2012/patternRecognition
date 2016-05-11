@@ -30,3 +30,5 @@ for i =1:size(train)
     end
     Images(1:w*h,i) = reshape(Img',w*h,1);
 end
+
+%今天的问题是把图片要进行预处理 这个很关键 转为灰度数据 并且将缩小到那个关键的图像位置上面
